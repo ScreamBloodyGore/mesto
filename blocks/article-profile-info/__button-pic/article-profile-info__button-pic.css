@@ -1,0 +1,12 @@
+.article-profile-info__button-pic {
+    background: url(../../../images/article/EditButton.png) 0 0/contain no-repeat;
+    height: 18px;
+    width: 18px;
+}
+
+@media screen and (min-width: 768px) {
+    .article-profile-info__button-pic {
+        height: 24px;
+        width: 24px;
+    }
+  }

@@ -1,0 +1,32 @@
+/* .profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 460px) {
+    .profile-info {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  } */
+
+  .article-profile-info {
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-items: center;
+    grid-row-gap: 26px;
+    grid-column-gap: 30px;
+}
+
+@media screen and (min-width: 480px) {
+    .article-profile-info {
+      grid-auto-flow: column;
+      justify-content: space-evenly;
+    }
+  }
+
+
+

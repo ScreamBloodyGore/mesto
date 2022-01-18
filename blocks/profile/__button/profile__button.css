@@ -1,0 +1,14 @@
+.profile__button {
+    align-self: center;
+    height: 50px;
+    width: 282px;
+    background: url(../../../images/article/AddButtonLarge.png) 0 0/contain no-repeat;
+    justify-self: center;
+}
+
+@media screen and (min-width: 768px) {
+    .profile__button {
+        background: url(../../../images/article/AddButtonSmall.png) 0 0/contain no-repeat;
+        width: 150px;
+    }
+  }
