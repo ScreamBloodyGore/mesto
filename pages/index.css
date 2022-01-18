@@ -1,0 +1,44 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__container/page__container.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__content/page__content.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__profile/content__profile.css);
+@import url(../blocks/content/__gallery/content__gallery.css);
+
+@import url(../blocks/section/section.css);
+
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__article-profile-info/profile__article-profile-info.css);
+@import url(../blocks/profile/__button/profile__button.css);
+@import url(../blocks/profile/__button-image/profile__button-image.css);
+
+@import url(../blocks/article-profile-info/article-profile-info.css);
+@import url(../blocks/article-profile-info/__image/article-profile-info__image.css);
+@import url(../blocks/article-profile-info/__text-area/article-profile-info__text-area.css);
+@import url(../blocks/article-profile-info/__name/article-profile-info__name.css);
+@import url(../blocks/article-profile-info/__employment/article-profile-info__employment.css);
+@import url(../blocks/article-profile-info/__name-area/article-profile-info__name-area.css);
+@import url(../blocks/article-profile-info/__button/article-profile-info__button.css);
+@import url(../blocks/article-profile-info/__button-pic/article-profile-info__button-pic.css);
+
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__gallery-list/gallery__gallery-list.css);
+
+@import url(../blocks/gallery-list/gallery-list.css);
+@import url(../blocks/gallery-list/__item/gallery-list__item.css);
+@import url(../blocks/gallery-list/__article/gallery-list__article.css);
+@import url(../blocks/gallery-list/__image/gallery-list__image.css);
+@import url(../blocks/gallery-list/__text-area/gallery-list__text-area.css);
+@import url(../blocks/gallery-list/__text/gallery-list__text.css);
+@import url(../blocks/gallery-list/__text-area-pic/gallery-list__text-area-pic.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__text/footer__text.css);
