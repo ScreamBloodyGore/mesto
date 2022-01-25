@@ -1,0 +1,23 @@
+.form {
+  display: grid;
+  grid-template: auto 30px auto 45px auto / 1fr;
+  grid-template-areas:
+    "form__name"
+    "."
+    "form__employment"
+    "."
+    "form__save-button";
+}
+
+@media screen and (min-width: 650px) {
+  .form {
+    display: grid;
+    grid-template: auto 30px auto 48px auto / 1fr;
+    grid-template-areas:
+      "form__name"
+      "."
+      "form__employment"
+      "."
+      "form__save-button";
+  }
+}

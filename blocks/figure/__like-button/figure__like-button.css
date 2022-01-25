@@ -1,0 +1,19 @@
+.figure__like-button {
+  width: 22px;
+  height: 19px;
+  flex-shrink: 0;
+  background: url(../../../images/content/text-area/heart.svg) 0 0/cover no-repeat;
+  padding: 0;
+  align-self: center;
+  border: 0;
+}
+
+.figure__like-button:hover {
+  opacity: .5;
+  transition-duration: .3s;
+  cursor: pointer;
+}
+
+.figure__like-button:active {
+  background: url(../../../../images/content/text-area/activeheart.svg) 0 0/cover no-repeat;
+}

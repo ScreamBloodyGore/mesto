@@ -1,0 +1,17 @@
+.profile__employment {
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin: 0;
+  color: #FFFFFF;
+  grid-area: profile__employment;
+}
+
+@media screen and (min-width: 768px) {
+  .profile__employment {
+      font-size: 18px;
+      line-height: 22px;
+  }
+}

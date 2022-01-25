@@ -8,85 +8,76 @@
 </head>
 <body class="page">
   <div class="page__container">
-    <!-- <header class="page__header header">
-        <img src="images/header/logo.svg" alt="Лого" class="header__logo">
-    </header> -->
     <header class="page__header header">
       <a href="#" class="header__link-block">
         <img src="images/header/logo.svg" alt="Лого" class="header__logo">
       </a>
-      </header>
+    </header>
     <main class="page__content content">
-      <section class="content__profile profile section">
-        <article class="profile__article-profile-info article-profile-info">
-          <img src="images/article/profile.jpg" alt="Жак-Ив Кусто" class="article-profile-info__image">
-          <div class="article-profile-info__text-area">
-            <div class="article-profile-info__name-area">
-              <p class="article-profile-info__name">Жак-Ив Кусто</p>
-              <a class="article-profile-info__button">
-                <div class="article-profile-info__button-pic"></div>
-              </a>
-            </div>
-            <p class="article-profile-info__employment">Исследователь океана</p>
+      <section class="content__profile profile section" aria-label="секция с информацией о профиле">
+          <img src="images/article/profile.jpg" alt="Фото пользователя" class="profile__pic">
+          <div class="profile__info-area">
+            <p class="profile__name">Жак-Ив Кусто</p>
+            <button class="profile__change-name-button button-hover"></button>
+            <p class="profile__employment">Исследователь океана</p>
           </div>
-        </article>
-        <a href="#" class="profile__button"></a>
+        <button class="profile__big-button button-hover"></button>
       </section>
-      <section class="content__gallery gallery section">
-        <ul class="gallery__gallery-list gallery-list">
-          <li class="gallery-list__item">
-            <article class="gallery-list__article">
-              <img src="images/content/gallery/karachaevsk.png" alt="Карачаевск" class="gallery-list__image">
-              <div class="gallery-list__text-area">
-                <p class="gallery-list__text">Карачаево-Черкессия</p>
-                <div class="gallery-list__text-area-pic"></div>
+      <section class="content__gallery gallery section" aria-label="секция с карточками">
+        <ul class="gallery__list">
+          <li class="gallery__list-item">
+            <figure class="gallery__item figure">
+              <img src="images/content/gallery/karachaevsk.png" alt="Карачаевск" class="figure__image">
+              <div class="figure__text-area">
+                <p class="figure__text">Карачаево-Черкессия</p>
+                <button class="figure__like-button"></button>
               </div>
-            </article>
+            </figure>
           </li>
-          <li class="gallery-list__item">
-            <article class="gallery-list__article">
-              <img src="images/content/gallery/elbrus.png" alt="Гора Эльбрус" class="gallery-list__image">
-              <div class="gallery-list__text-area">
-                <p class="gallery-list__text">Гора Эльбрус</p>
-                <div class="gallery-list__text-area-pic"></div>
+          <li class="gallery__list-item">
+            <figure class="gallery__item figure">
+              <img src="images/content/gallery/elbrus.png" alt="Гора Эльбрус" class="figure__image">
+              <div class="figure__text-area">
+                <p class="figure__text">Гора Эльбрус</p>
+                <button class="figure__like-button"></button>
               </div>
-            </article>
+            </figure>
           </li>
-          <li class="gallery-list__item">
-            <article class="gallery-list__article">
-              <img src="images/content/gallery/dumbai.png" alt="Домбай" class="gallery-list__image">
-              <div class="gallery-list__text-area">
-                <p class="gallery-list__text">Домбай</p>
-                <div class="gallery-list__text-area-pic"></div>
+          <li class="gallery__list-item">
+            <figure class="gallery__item figure">
+              <img src="images/content/gallery/dumbai.png" alt="Домбай" class="figure__image">
+              <div class="figure__text-area">
+                <p class="figure__text">Домбай</p>
+                <button class="figure__like-button"></button>
               </div>
-            </article>
+            </figure>
           </li>
-          <li class="gallery-list__item">
-            <article class="gallery-list__article">
-              <img src="images/content/gallery/karachaevsk.png" alt="Карачаевск" class="gallery-list__image">
-              <div class="gallery-list__text-area">
-                <p class="gallery-list__text">Карачаево-Черкессия</p>
-                <div class="gallery-list__text-area-pic"></div>
+          <li class="gallery__list-item">
+            <figure class="gallery__item figure">
+              <img src="images/content/gallery/karachaevsk.png" alt="Карачаевск" class="figure__image">
+              <div class="figure__text-area">
+                <p class="figure__text">Карачаево-Черкессия</p>
+                <button class="figure__like-button"></button>
               </div>
-            </article>
+            </figure>
           </li>
-          <li class="gallery-list__item">
-            <article class="gallery-list__article">
-              <img src="images/content/gallery/elbrus.png" alt="Гора Эльбрус" class="gallery-list__image">
-              <div class="gallery-list__text-area">
-                <p class="gallery-list__text">Гора Эльбрус</p>
-                <div class="gallery-list__text-area-pic"></div>
+          <li class="gallery__list-item">
+            <figure class="gallery__item figure">
+              <img src="images/content/gallery/elbrus.png" alt="Гора Эльбрус" class="figure__image">
+              <div class="figure__text-area">
+                <p class="figure__text">Гора Эльбрус</p>
+                <button class="figure__like-button"></button>
               </div>
-            </article>
+            </figure>
           </li>
-          <li class="gallery-list__item">
-            <article class="gallery-list__article">
-              <img src="images/content/gallery/dumbai.png" alt="Домбай" class="gallery-list__image">
-              <div class="gallery-list__text-area">
-                <p class="gallery-list__text">Домбай</p>
-                <div class="gallery-list__text-area-pic"></div>
+          <li class="gallery__list-item">
+            <figure class="gallery__item figure">
+              <img src="images/content/gallery/dumbai.png" alt="Домбай" class="figure__image">
+              <div class="figure__text-area">
+                <p class="figure__text">Домбай</p>
+                <button class="figure__like-button"></button>
               </div>
-            </article>
+            </figure>
           </li>
         </ul>
       </section>
@@ -95,5 +86,21 @@
       <p class="footer__text">&copy; 2020 Mesto Russia</p>
     </footer>
   </div>
+  <div class="popup hidden">
+    <section class="popup__container" aria-label="окно ввода информации">
+      <button class="popup__close-button button-hover"></button>
+      <section class="popup__content">
+        <h2 class="popup__title">Редактировать профиль</h2>
+        <form class="popup__form form">
+          <input type="text" placeholder="Введите имя" value="Жак-Ив Кусто" class="form__name">
+          <input type="text" placeholder="Введите род деятельности" value="Исследователь океана" class="form__employment">
+          <button type="submit" class="form__save-button">
+            <span class="form__save-button-text">Сохранить</span>
+          </button>
+        </form>
+      </section>
+    </section>
+  </div>
+  <script src="scripts/index.js"></script>
 </body>
 </html>

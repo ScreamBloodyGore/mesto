@@ -1,0 +1,17 @@
+.form__save-button-text {
+  z-index: 2;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  position: relative;
+}
+
+@media screen and (min-width: 650px) {
+  .form__save-button-text{
+    font-size: 18px;
+    line-height: 22px;
+  }
+}

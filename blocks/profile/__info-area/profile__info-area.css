@@ -1,0 +1,25 @@
+/* .profile__name-area {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 0 14px 0;
+} */
+
+.profile__info-area {
+  display: grid;
+  grid-template: auto auto / auto auto;
+  grid-template-areas:
+    "profile__name profile__change-name-button"
+    "profile__employment profile__employment";
+  grid-row-gap: 8px;
+  grid-column-gap: 18px;
+  grid-area: profile__info-area;
+  justify-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  .profile__info-area {
+    justify-items: start;
+  }
+}
+
+

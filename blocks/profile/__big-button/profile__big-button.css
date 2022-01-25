@@ -1,0 +1,18 @@
+.profile__big-button {
+    align-self: center;
+    height: 50px;
+    width: 282px;
+    background: url(../../../images/article/AddButtonLarge.png) 0 0/cover no-repeat;
+    justify-self: center;
+    grid-area: profile__big-button;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .profile__big-button {
+        background: url(../../../images/article/AddButtonSmall.png) 0 0/cover no-repeat;
+        width: 150px;
+    }
+  }
